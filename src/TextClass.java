@@ -6,6 +6,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import javax.swing.*;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.TransformerException;
 
 public class TextClass extends JFrame {
     private JTextField textField;
@@ -58,6 +60,13 @@ public class TextClass extends JFrame {
                 try {
                     a.Write(status);
                 } catch (IOException ex) {
+                    throw new RuntimeException(ex);
+                }
+                try {
+                    XMLreader a = new XMLreader();
+                } catch (ParserConfigurationException ex) {
+                    throw new RuntimeException(ex);
+                } catch (TransformerException ex) {
                     throw new RuntimeException(ex);
                 }
                 dispose();
