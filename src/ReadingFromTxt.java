@@ -16,7 +16,7 @@ public class ReadingFromTxt {
         in.close();
     }
     void Write(String file_name) throws IOException {
-        FileWriter fw = new FileWriter("output.txt");
+        FileWriter fw = new FileWriter(file_name);
         fw.write(result);
         fw.close();
     }
