@@ -2,6 +2,7 @@ import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileNotFoundException;
 
 import javax.swing.*;
 
@@ -32,7 +33,12 @@ public class TextClass extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 String status;
                 status = textField.getText();
-                System.out.print(status);
+                ReadingFromTxt a = new ReadingFromTxt();
+                try {
+                    a.Read(status);
+                } catch (FileNotFoundException ex) {
+                    throw new RuntimeException(ex);
+                }
                 dispose();
             }
         });
@@ -50,6 +56,7 @@ public class TextClass extends JFrame {
                 frame.setLocationRelativeTo(null);
                 frame.setVisible(true);
             }
+
         });
     }
 }
