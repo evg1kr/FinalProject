@@ -3,6 +3,7 @@ import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 import javax.swing.*;
 
@@ -20,23 +21,43 @@ public class TextClass extends JFrame {
         JPanel panel = new JPanel();
         panel.setLayout(new FlowLayout());
 
-        JButton button1 = new JButton("Enter");
+        JButton button1 = new JButton("Enter input file");
         panel.add(button1);
-        JTextArea textArea = new JTextArea("Enter the type of opening file ");
+        JButton button2 = new JButton("Enter output file");
+        panel.add(button2);
+        button2.setVisible(false);
+        JTextArea textArea = new JTextArea("Enter the name of input file");
         panel.add(textArea);
+        JTextArea textArea1 = new JTextArea("Enter the name of output file");
+        panel.add(textArea1);
+        textArea1.setVisible(false);
         textField = new JTextField();
         textField.setColumns(23);
         panel.add(textField);
-
+        ReadingFromTxt a = new ReadingFromTxt();
 
         button1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 String status;
                 status = textField.getText();
-                ReadingFromTxt a = new ReadingFromTxt();
                 try {
                     a.Read(status);
-                } catch (FileNotFoundException ex) {
+                } catch (IOException ex) {
+                    throw new RuntimeException(ex);
+                }
+                button2.setVisible(true);
+                textArea1.setVisible(true);
+                button1.setVisible(false);
+                textArea.setVisible(false);
+            }
+        });
+        button2.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                String status;
+                status = textField.getText();
+                try {
+                    a.Write(status);
+                } catch (IOException ex) {
                     throw new RuntimeException(ex);
                 }
                 dispose();

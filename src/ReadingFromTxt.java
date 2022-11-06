@@ -5,7 +5,7 @@ public class ReadingFromTxt {
     ReadingFromTxt(){
         result="";
     }
-    void Read(String file_name) throws FileNotFoundException {
+    void Read(String file_name) throws IOException {
         FileReader fr = new FileReader(file_name);
         Scanner in = new Scanner(fr);
         result=in.nextLine()+"\n";
@@ -14,6 +14,10 @@ public class ReadingFromTxt {
         result+="\n";
         }
         in.close();
-        System.out.println(result);
+    }
+    void Write(String file_name) throws IOException {
+        FileWriter fw = new FileWriter("output.txt");
+        fw.write(result);
+        fw.close();
     }
 }
