@@ -22,7 +22,6 @@ public class XMLreader {
             builder = factory.newDocumentBuilder();
             Document doc = builder.parse(xmlFile);
             doc.getDocumentElement().normalize();
-            System.out.println("Корневой элемент: " + doc.getDocumentElement().getNodeName());
             // получаем узлы с именем Language
             // теперь XML полностью загружен в память
             // в виде объекта Document
@@ -30,7 +29,7 @@ public class XMLreader {
 
             String Result="";
             for (int i = 0; i < nodeList.getLength(); i++) {
-
+                Result=nodeList.item(i).getChildNodes().item(0).getTextContent();
             }
 
             // печатаем в консоль информацию по каждому объекту Language
