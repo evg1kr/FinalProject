@@ -5,11 +5,7 @@ import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.*;
 import javax.xml.transform.*;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
 import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
 
 public class XMLreader {
 
@@ -22,9 +18,6 @@ public class XMLreader {
             builder = factory.newDocumentBuilder();
             Document doc = builder.parse(xmlFile);
             doc.getDocumentElement().normalize();
-            // получаем узлы с именем Language
-            // теперь XML полностью загружен в память
-            // в виде объекта Document
             NodeList nodeList = doc.getElementsByTagName("String");
 
             String Result="";
@@ -32,7 +25,6 @@ public class XMLreader {
                 Result=nodeList.item(i).getChildNodes().item(0).getTextContent();
             }
 
-            // печатаем в консоль информацию по каждому объекту Language
             System.out.println(Result);
         } catch (Exception exc) {
             exc.printStackTrace();
