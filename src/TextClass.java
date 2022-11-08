@@ -64,6 +64,8 @@ public class TextClass extends JFrame {
                 }
                 try {
                     XMLreader a = new XMLreader();
+                    a.read("test.xml");
+                    a.output("output.xml");
                 } catch (ParserConfigurationException ex) {
                     throw new RuntimeException(ex);
                 } catch (TransformerException ex) {
