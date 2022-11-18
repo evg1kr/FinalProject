@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7572e93-305e-40e3-9ef4-6a5988ad18af" name="Changes" comment="added xml reading">
-      <change afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
+    <list default="true" id="c7572e93-305e-40e3-9ef4-6a5988ad18af" name="Changes" comment="added xml">
+      <change afterPath="$PROJECT_DIR$/Dialog.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TextClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/XMLreader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/XMLreader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +32,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/gson-2.8.2.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/User/Desktop/JavaLib/javafx-sdk-19/lib",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,6 +52,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667736986952</updated>
+      <workItem from="1668357973573" duration="1053000" />
+      <workItem from="1668799651835" duration="983000" />
     </task>
     <task id="LOCAL-00001" summary=" /">
       <created>1667740640852</created>
@@ -123,8 +125,18 @@
       <option name="project" value="LOCAL" />
       <updated>1667854930495</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added xml">
+      <created>1667921171555</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667921171555</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -144,6 +156,7 @@
     <MESSAGE value="added writing to txt" />
     <MESSAGE value="added xml creating" />
     <MESSAGE value="added xml reading" />
-    <option name="LAST_COMMIT_MESSAGE" value="added xml reading" />
+    <MESSAGE value="added xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="added xml" />
   </component>
 </project>
