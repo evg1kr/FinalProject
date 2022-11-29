@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7572e93-305e-40e3-9ef4-6a5988ad18af" name="Changes" comment="added writing to txt">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output.json" afterDir="false" />
+    <list default="true" id="c7572e93-305e-40e3-9ef4-6a5988ad18af" name="Changes" comment="added jsonReader">
       <change afterPath="$PROJECT_DIR$/scene.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Archives/ZipFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReadingAndWriting/JsonReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parser/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parser/ParserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReadingFromTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadingAndWriting/ReadingFromTxt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TextClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/XMLreader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadingAndWriting/XMLreader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +54,7 @@
       <workItem from="1668760390454" duration="1709000" />
       <workItem from="1668848616627" duration="4194000" />
       <workItem from="1669020150732" duration="4268000" />
-      <workItem from="1669757652291" duration="1425000" />
+      <workItem from="1669757652291" duration="1647000" />
     </task>
     <task id="LOCAL-00001" summary=" /">
       <created>1667740640852</created>
@@ -108,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667748037917</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added jsonReader">
+      <created>1669761518752</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669761518753</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +120,7 @@
     <MESSAGE value=" /" />
     <MESSAGE value="added reading from txt" />
     <MESSAGE value="added writing to txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="added writing to txt" />
+    <MESSAGE value="added jsonReader" />
+    <option name="LAST_COMMIT_MESSAGE" value="added jsonReader" />
   </component>
 </project>
