@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7572e93-305e-40e3-9ef4-6a5988ad18af" name="Changes" comment="added jsonReader">
-      <change afterPath="$PROJECT_DIR$/scene.fxml" afterDir="false" />
+    <list default="true" id="c7572e93-305e-40e3-9ef4-6a5988ad18af" name="Changes" comment="added xml">
+      <change afterPath="$PROJECT_DIR$/Dialog.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +37,9 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/User/Desktop/dom-2.3.0-jaxb-1.0.6.jar",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "C:/Users/User/Desktop/JavaLib/javafx-sdk-19/lib",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
@@ -52,10 +52,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667736986952</updated>
-      <workItem from="1668760390454" duration="1709000" />
-      <workItem from="1668848616627" duration="4194000" />
-      <workItem from="1669020150732" duration="4268000" />
-      <workItem from="1669757652291" duration="3232000" />
+      <workItem from="1668357973573" duration="1053000" />
+      <workItem from="1668799651835" duration="983000" />
     </task>
     <task id="LOCAL-00001" summary=" /">
       <created>1667740640852</created>
@@ -92,35 +90,49 @@
       <option name="project" value="LOCAL" />
       <updated>1667748037917</updated>
     </task>
-    <task id="LOCAL-00006" summary="added jsonReader">
-      <created>1669761518752</created>
+    <task id="LOCAL-00006" summary="added xml creating">
+      <created>1667758609300</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1669761518753</updated>
+      <updated>1667758609300</updated>
     </task>
-    <task id="LOCAL-00007" summary="added jsonReader">
-      <created>1669761687008</created>
+    <task id="LOCAL-00007" summary="added xml creating">
+      <created>1667759862822</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1669761687008</updated>
+      <updated>1667759862822</updated>
     </task>
-    <task id="LOCAL-00008" summary="added jsonReader">
-      <created>1669790868967</created>
+    <task id="LOCAL-00008" summary="added xml creating">
+      <created>1667777055778</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1669790868967</updated>
+      <updated>1667777055778</updated>
     </task>
-    <task id="LOCAL-00009" summary="added jsonReader">
-      <created>1669794537700</created>
+    <task id="LOCAL-00009" summary="added xml reading">
+      <created>1667843426291</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1669794537700</updated>
+      <updated>1667843426291</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added xml reading">
+      <created>1667854930495</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667854930495</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added xml">
+      <created>1667921171555</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667921171555</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +154,9 @@
     <MESSAGE value=" /" />
     <MESSAGE value="added reading from txt" />
     <MESSAGE value="added writing to txt" />
-    <MESSAGE value="added jsonReader" />
-    <option name="LAST_COMMIT_MESSAGE" value="added jsonReader" />
+    <MESSAGE value="added xml creating" />
+    <MESSAGE value="added xml reading" />
+    <MESSAGE value="added xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="added xml" />
   </component>
 </project>
