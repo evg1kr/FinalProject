@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c7572e93-305e-40e3-9ef4-6a5988ad18af" name="Changes" comment="added jsonReader">
       <change afterPath="$PROJECT_DIR$/scene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <workItem from="1668760390454" duration="1709000" />
       <workItem from="1668848616627" duration="4194000" />
       <workItem from="1669020150732" duration="4268000" />
-      <workItem from="1669757652291" duration="2447000" />
+      <workItem from="1669757652291" duration="3232000" />
     </task>
     <task id="LOCAL-00001" summary=" /">
       <created>1667740640852</created>
@@ -112,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669790868967</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added jsonReader">
+      <created>1669794537700</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669794537700</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
