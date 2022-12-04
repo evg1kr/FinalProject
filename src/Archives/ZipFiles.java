@@ -37,7 +37,10 @@ public class ZipFiles {
 
                 // распаковка
                 FileOutputStream fout = new FileOutputStream(path + name);
-                for (int c = zin.read(); c != -1; c = zin.read()) {
+
+                int c;
+
+                while((c = zin.read()) != -1) {
                     fout.write(c);
                 }
                 fout.flush();
@@ -46,7 +49,6 @@ public class ZipFiles {
             }
         }
         catch(Exception ex){
-
             System.out.println(ex.getMessage());
         }
     }

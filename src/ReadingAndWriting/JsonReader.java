@@ -20,8 +20,8 @@ public class JsonReader {
         br.close();
     }
     public void Write(String file_name) throws IOException {
-            FileWriter fw = new FileWriter(file_name);
-            fw.write(new Gson().toJson(result));
-            fw.close();
+        FileWriter fw = new FileWriter(file_name);
+        fw.write(new Gson().toJson(result));
+        fw.close();
     }
 }

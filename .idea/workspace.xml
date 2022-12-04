@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7572e93-305e-40e3-9ef4-6a5988ad18af" name="Changes" comment="added xml">
-      <change afterPath="$PROJECT_DIR$/Dialog.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Archives/RarFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/encryption/Encryption.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FinalProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Archives/ZipFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Archives/ZipFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReadingAndWriting/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadingAndWriting/JsonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReadingAndWriting/ReadingFromJson.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/User/Desktop/JavaLib/javafx-sdk-19/lib",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
@@ -132,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667921171555</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added xml">
+      <created>1669795594509</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669795594509</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
