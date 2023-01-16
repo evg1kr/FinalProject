@@ -1,7 +1,9 @@
 package parser;
+import Archives.ZipFiles;
 import ReadingAndWriting.JSON;
 import ReadingAndWriting.TXT;
 import ReadingAndWriting.XML;
+import Archives.ZipFiles;
 
 import javax.crypto.BadPaddingException;
 import javax.crypto.IllegalBlockSizeException;
@@ -53,9 +55,10 @@ public void Start(String in, String out, boolean mode) throws IOException, Parse
                     file.Write(out, Double.toString(M));
                 }
                 else{
-          /*          result=t.matches("zip");
-                    if(result){
-                    }*/
+                    ZipFiles a = new ZipFiles();
+                   sequence = a.unarchivate(in);
+                   double M = pars.evaluate(sequence);
+                   a.archivate(out,out);
                 }
             }
         }
