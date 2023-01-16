@@ -10,12 +10,9 @@ public class ZipFiles {
         {
             ZipEntry entry1=new ZipEntry(path);
             zout.putNextEntry(entry1);
-            // считываем содержимое файла в массив byte
             byte[] buffer = new byte[fis.available()];
             fis.read(buffer);
-            // добавляем содержимое к архиву
             zout.write(buffer);
-            // закрываем текущую запись для новой записи
             zout.closeEntry();
         }
         catch(Exception ex){
@@ -31,12 +28,9 @@ public class ZipFiles {
             long size;
             while((entry=zin.getNextEntry())!=null){
 
-                name = entry.getName(); // получим название файла
-                size = entry.getSize();  // получим его размер в байтах
-                System.out.printf("File name: %s \t File size: %d \n", name, size);
+                name = entry.getName();
 
-                // распаковка
-                FileOutputStream fout = new FileOutputStream(path + name);
+                FileOutputStream fout = new FileOutputStream(path);
 
                 int c;
 

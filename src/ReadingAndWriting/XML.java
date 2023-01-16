@@ -1,7 +1,6 @@
 package ReadingAndWriting;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.*;
@@ -12,8 +11,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class XMLreader {
-    String Result;
+public class XML implements file{
     private void writeDocument(Document document, String path)
             throws TransformerFactoryConfigurationError {
         Transformer trf = null;
@@ -33,10 +31,8 @@ public class XMLreader {
             e.printStackTrace(System.out);
         }
     }
-    public XMLreader(){
-        Result="";
-    }
-    public void output(String path) throws ParserConfigurationException {
+    @Override
+    public void Write(String path, String a) throws ParserConfigurationException {
         DocumentBuilderFactory dbf;
         DocumentBuilder db;
         Document doc;
@@ -47,13 +43,15 @@ public class XMLreader {
         Element root = doc.createElement("Strings");
 
         Element user = doc.createElement("string");
-        user.setTextContent(Result);
+        user.setTextContent(a);
         root.appendChild(user);
         doc.appendChild(root);
         writeDocument(doc,path);
     }
-    public void read(String path) throws ParserConfigurationException, TransformerException {
+    @Override
+    public String Read(String path) throws ParserConfigurationException {
         File xmlFile = new File(path);
+        String Result = new String();
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder;
         try {
@@ -67,7 +65,7 @@ public class XMLreader {
         } catch (Exception exc) {
             exc.printStackTrace();
         }
-
+return Result;
 
     }
 }

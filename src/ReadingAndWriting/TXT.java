@@ -2,12 +2,10 @@ package ReadingAndWriting;
 
 import java.util.Scanner;
 import java.io.*;
-public class ReadingFromTxt {
+public class TXT implements file {
+    @Override
+  public  String Read(String file_name) throws IOException {
     String result;
-    ReadingFromTxt(){
-        result="";
-    }
-    void Read(String file_name) throws IOException {
         FileReader fr = new FileReader(file_name);
         Scanner in = new Scanner(fr);
         result=in.nextLine()+"\n";
@@ -16,10 +14,12 @@ public class ReadingFromTxt {
         result+="\n";
         }
         in.close();
+        return result;
     }
-    void Write(String file_name) throws IOException {
+    @Override
+   public void Write(String file_name, String a) throws IOException {
         FileWriter fw = new FileWriter(file_name);
-        fw.write(result);
+        fw.write(a);
         fw.close();
     }
 }

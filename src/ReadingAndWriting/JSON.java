@@ -6,22 +6,19 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Scanner;
 
-public class JsonReader {
-    String result;
-    public JsonReader(){
-        result="15";
-    }
-
-    public void Read(String file_name) throws IOException {
+public class JSON implements file {
+    @Override
+    public String Read(String file_name) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader(file_name));
-        result = new Gson().fromJson(br, String.class);
+        String result = new Gson().fromJson(br, String.class);
         br.close();
+        return result;
     }
-    public void Write(String file_name) throws IOException {
+    @Override
+    public void Write(String file_name, String a) throws IOException {
         FileWriter fw = new FileWriter(file_name);
-        fw.write(new Gson().toJson(result));
+        fw.write(new Gson().toJson(a));
         fw.close();
     }
 }
